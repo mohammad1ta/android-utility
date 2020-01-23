@@ -2,6 +2,11 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
+/**
+ * LocalStorage class
+ * @author Mohammadreza Yektamaram <mohammad.1ta@gmail.com>
+ * @since 2020-01-23 11:13 AM
+ */
 public class LocalStorage {
 
     private static SharedPreferences variable;
