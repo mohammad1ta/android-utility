@@ -47,3 +47,21 @@ listView.setLayoutAnimation( Animation.PushLeft( 250, 0 ) );
 ```java
 Animation.BounceImage( imageView, 1600 );
 ```
+
+## Local Storage Helper
+With this helper, you can put or get data on in-app local storage.
+
+#### Example
+```java
+LocalStorage Local = new LocalStorage( this );
+
+// For putting data in storage
+Local.putString( "user-email", "example@gmail.com" );
+Local.putInt( "userid", 5 );
+Local.putBoolean( "is-login", true );
+
+// For getting data of storage
+Local.getString( "user-email" );
+Local.getInt( "userid" );
+Local.getBoolean( "is-login" );
+```
