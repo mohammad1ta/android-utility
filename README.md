@@ -42,3 +42,8 @@ listView.setLayoutAnimation( Animation.PushRight( 250, 0 ) );
 ```java
 listView.setLayoutAnimation( Animation.PushLeft( 250, 0 ) );
 ```
+
+#### Bounce image from up to down
+```java
+Animation.BounceImage( imageView, 1600 );
+```
