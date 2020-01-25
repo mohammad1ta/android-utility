@@ -1,7 +1,11 @@
 # android-utility
 Useful utility classes for android.
 
-## Animation Helper
+1. [Animation](#animation)
+1. [Local Storage](#localstorage)
+
+<h2 id="animation">Animation Helper</h2>
+## 
 With this helper, you can assign any type of animation to your element ( such as each listview, gridview and etc. )
 
 ### How to use?
@@ -48,7 +52,7 @@ listView.setLayoutAnimation( Animation.PushLeft( 250, 0 ) );
 Animation.BounceImage( imageView, 1600 );
 ```
 
-## Local Storage Helper
+<h2 id="localstorage">Local Storage Helper</h2>
 With this helper, you can put or get data on in-app local storage.
 
 #### Example
